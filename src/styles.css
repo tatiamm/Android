@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Ensures the canvas takes the full screen */
+canvas {
+  display: block;
+}
+
+/* Overlay Text Styling */
+.overlay {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
